@@ -4,5 +4,9 @@ services:
     build: ./stress-test
   stress2:
     build: ./stress-test
+  stress3:
+    build: ./stress-test
+  stress4:
+    build: ./stress-test
   temperature:
     build: ./temperature
