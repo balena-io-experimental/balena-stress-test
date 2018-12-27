@@ -1,4 +1,4 @@
-FROM arm32v7/python:3
+FROM arm32v7/python:stretch
 
 COPY ["requirements.txt", "entrypoint.sh", "/app/"]
 
