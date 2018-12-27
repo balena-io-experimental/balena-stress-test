@@ -1,4 +1,4 @@
-FROM arm32v7/python
+FROM arm32v7/ubuntu
 
 COPY ["requirements.txt", "entrypoint.sh", "/app/"]
 
